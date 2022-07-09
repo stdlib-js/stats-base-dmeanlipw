@@ -70,7 +70,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.dmeanlipw;
+})();
 })();
 </script>
 ```
@@ -187,6 +189,7 @@ var v = dmeanlipw.ndarray( N, x, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dmeanlipw@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var x;
 var i;
@@ -200,6 +203,7 @@ console.log( x );
 var v = dmeanlipw( x.length, x, 1 );
 console.log( v );
 
+})();
 })();
 </script>
 </body>
@@ -313,7 +317,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [arithmetic-mean]: https://en.wikipedia.org/wiki/Arithmetic_mean
 
-[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64/tree/umd
+[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64/tree/umd/tree/umd
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
@@ -327,13 +331,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dmean]: https://github.com/stdlib-js/stats-base-dmean/tree/umd
+[@stdlib/stats/base/dmean]: https://github.com/stdlib-js/stats-base-dmean/tree/umd/tree/umd
 
-[@stdlib/stats/base/dmeanli]: https://github.com/stdlib-js/stats-base-dmeanli/tree/umd
+[@stdlib/stats/base/dmeanli]: https://github.com/stdlib-js/stats-base-dmeanli/tree/umd/tree/umd
 
-[@stdlib/stats/base/dmeanpw]: https://github.com/stdlib-js/stats-base-dmeanpw/tree/umd
+[@stdlib/stats/base/dmeanpw]: https://github.com/stdlib-js/stats-base-dmeanpw/tree/umd/tree/umd
 
-[@stdlib/stats/base/smeanlipw]: https://github.com/stdlib-js/stats-base-smeanlipw/tree/umd
+[@stdlib/stats/base/smeanlipw]: https://github.com/stdlib-js/stats-base-smeanlipw/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
