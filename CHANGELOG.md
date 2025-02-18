@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-14)
+## Unreleased (2025-02-18)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`3360631`](https://github.com/stdlib-js/stdlib/commit/33606310f07ffc091f401be067c05d82a009d103) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`954e7c1`](https://github.com/stdlib-js/stdlib/commit/954e7c1e1716bfdd15903b4be7039741396927eb) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmeanlipw` [(#4733)](https://github.com/stdlib-js/stdlib/pull/4733) _(by Prashant Kumar Yadav)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`86eb8a8`](https://github.com/stdlib-js/stdlib/commit/86eb8a850f2c9d952bc72b803cc4637e076d8259) - **refactor:** update `stats/base/dmeanlipw` native addon from C++ to C [(#4098)](https://github.com/stdlib-js/stdlib/pull/4098) _(by Aayush Khanna)_
